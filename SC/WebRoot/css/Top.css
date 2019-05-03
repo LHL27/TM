@@ -1,0 +1,218 @@
+/*Í¨Åä·û*/
+*{
+	margin: 0px auto;
+	padding: 0px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	text-decoration: none;
+	color: black;
+}
+
+/*µÚÒ»ÐÐ*/
+.header{
+	width: 1200px;
+	height: 35px;
+	background-color: #999999; 
+	text-align: center;
+}
+/*µÚÒ»ÐÐ×ó²à*/
+.header-left{
+	width: 220px;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	/*background-color: green;*/
+}
+
+.miao{
+	height: 35px;
+	width:86px;
+	color:gray;
+	font-size:12px;
+	float: left;
+}
+
+.header-left>a>#login,.header-left>a>#set{
+	height: 35px;
+	width:65px;
+	color:gray;
+	font-size:12px;
+	float: left;
+}
+
+/*µÚÒ»ÐÐÓÒ²à*/
+.header-right{
+	width: 630px;
+	height: 35px;
+	line-height: 35px;
+	float: right;
+	/*background-color: green;*/
+}
+
+.header-right>a>div{
+	font-size:12px;
+	float: left;
+	width: 80px;
+}
+
+#shangjia,#wangzhan{
+	width: 105px;
+}
+
+#che>img,#phone>img,#shangjia>img,#wangzhan>img{
+	margin:5px 0px;
+	height: 25px;
+	float: left;
+}
+
+
+.footer{
+	width: 1200px;
+	height: 135px;
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+/*loge*/
+.footer-left{
+	height: 135px;
+	width: 200px;
+	/*background-color: pink;*/
+	float: left;
+}
+
+.footer-left > img {
+	height:135px;
+	width: 200px;
+}
+
+.footer-right{
+	height: 135px;
+	width: 1000px;
+	/*background-color: yellow;*/
+	float: right;
+}
+/*ËÑË÷*/
+.search{
+	margin-top: 40px;
+	width: 622px;
+	height: 40px;
+	background-color: red;
+}
+
+
+#inputDemo{			/*ËÑË÷¿ò±ß¿òµÄÉèÖÃ*/
+	display:block;
+	width: 496px;
+	height: 36px;
+	border: 0px;
+	float: left;
+	margin-left:2px;
+	margin-top: 2px; 
+}
+
+#in{					/*ËÑË÷*/
+	display:block;
+	width: 122px;
+	height: 40px;
+	text-align: center;
+	line-height:40px;
+	font-size: 20px;
+	font-weight:bolder;
+	color: #fff;
+	background-color: red;
+	float: right;
+	border: 0px;
+}
+
+#in>a{
+	color: #fff;
+}
+/*·ÖÀà*/
+.classify{
+	margin-top:15px;
+	width: 622px;
+	height: 20px;
+	text-align:center;
+	/*background-color: pink;*/
+}
+
+#classify1,#classify2,#classify3,#classify4,#classify5,#classify6,#classify7,#classify8,#classify9{
+	line-height: 20px;
+	font-size:16px;
+	width: 60px;
+	text-align: center;
+	border-right: solid 1px #ccc;
+}
+
+#classify2>a,#classify4>a,#classify7>a,#classify9>a{
+	color: #FF0036;
+}
+
+#classify9{
+	border-right: 0px;
+}
+
+/*Òþ²ØÇøÓò*/
+#taobao-show{
+	width:90px;
+	height:60px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	left: 648px;
+	top:35px;
+	background-color: #fff;
+	visibility: hidden;
+}
+
+#taobao-show>div{
+	margin-top: 10px;
+}
+
+#jia-show{
+	width:90px;
+	height:60px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	left: 808px;
+	top:35px;
+	background-color: #fff;
+	visibility: hidden;
+}
+
+#jia-show>div{
+	margin-top: 10px;
+}
+
+#phone-show{
+	width: 160px;
+	height: 200px;
+	background-color: #fff;
+	position: absolute;
+	left: 853px;
+	top: 35px;
+	visibility: hidden;
+	border: 1px solid #111; 
+}
+
+#phone-img{
+	width: 160px;
+}
+
+.APP{
+	text-align: center;
+	font-size: 12px;
+	color:black;
+}
+
+.redpack{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+	font-style: italic;
+	color:red;
+}
+

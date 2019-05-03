@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<package name="default" namespace="" extends="struts-default">
+		<action name="DengLu" class="QueryAction">
+			 <result name="success" type="dispatcher">
+			 	/top.jsp
+			 </result>
+             
+             <result name="error" type="dispatcher">
+             	<param name="location">/Login.jsp</param>
+             	<param name="Key">1</param>
+             </result>
+         </action>
+         
+         
+		<action name="ZhuCe" class="AddAction">
+			<result name="success" type="dispatcher">
+				/Login.jsp
+			</result>
+			
+			<result name="fail" type="dispatcher">
+				/index.jsp
+			</result>
+		</action>
+	</package>
+</struts>    

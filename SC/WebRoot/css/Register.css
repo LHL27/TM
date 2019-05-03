@@ -1,0 +1,184 @@
+@CHARSET "UTF-8";
+/*通配符*/
+*{
+	margin: 0px auto;
+	padding: 0px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: black;
+}
+
+/*背景div*/
+.background{		
+	width: 1040px;
+	height: 640px;
+	background: url("../Image/bg.png") no-repeat;
+	padding: 80px;
+}
+
+/*登录框*/
+.registerForm{
+	width: 430px;
+	height: 550px;
+	background: #6d7670;
+	opacity:0.5;
+	padding: 40px 0px;
+}
+/*第1行*/
+.Admin{
+	width: 353px;
+	height: 40px;
+	/*background: yellow;*/
+	font-size: 40px;
+	color:#fff;
+	font-weight:bolder;
+	font-style: italic;
+}
+
+.name,.pwd,.repwd,.phone,.email{
+	width: 353px;
+	height: 40px;
+	margin-top: 40px;
+	background: #fff;
+}
+
+.name>div,.phone>div,.email>div{
+	width: 50px;
+	height: 40px;
+	background: #28b779;
+	color: #fff;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.pwd>div,.repwd>div{
+	width: 50px;
+	height: 40px;
+	background: #ffb848;
+	color: #fff;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.name>input,.phone>input,.email>input,.pwd>input,.repwd>input{
+	display: block;
+	width: 303px;
+	height: 40px;
+	float: left;
+}
+
+.blackHr{
+	display: block;
+	size: 2px;
+	color: black;
+	margin-top: 40px;
+}
+
+/*第7行*/
+.action{
+	width: 353px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.action>input{
+	display: block;
+	width: 55px;
+	height: 40px;
+	float: right;
+	background: #49afcd;
+	color:#fff;
+	margin-left: 5px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+/*隐藏*/
+#spaceName{
+	width: 90px;
+	height: 35px;
+	border-radius:15px;
+	position: absolute;
+	left: 550px;
+	top: 243px;
+	background: #74C0BC;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#spacePwd{
+	width: 90px;
+	height: 35px;
+	border-radius:15px;
+	position: absolute;
+	left: 550px;
+	top: 323px;
+	background: #74C0BC;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#spaceRepwd,#pwdAndRepwd{
+	width: 120px;
+	height: 35px;
+	border-radius:15px;
+	position: absolute;
+	left: 550px;
+	top: 403px;
+	background: #74C0BC;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#spacePhone{
+	width: 110px;
+	height: 35px;
+	border-radius:15px;
+	position: absolute;
+	left: 550px;
+	top: 483px;
+	background: #74C0BC;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#illawLengthPhone,#illawFormPhone{
+	width: 120px;
+	height: 35px;
+	border-radius:15px;
+	position: absolute;
+	left: 550px;
+	top: 483px;
+	background: #74C0BC;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#spaceEmail,#illawEmail{
+	width: 90px;
+	height: 35px;
+	border-radius:15px;
+	position: absolute;
+	left: 550px;
+	top: 563px;
+	background: #74C0BC;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	visibility: hidden;
+}
